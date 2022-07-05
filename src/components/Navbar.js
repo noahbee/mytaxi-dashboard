@@ -49,6 +49,9 @@ color: white;
     $::placeholder {
       color: #ffc107
     }
+    &:focus {
+      outline: none;
+    }
   }
 }
 `;
