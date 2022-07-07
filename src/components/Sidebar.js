@@ -86,7 +86,7 @@ const [currentLink, setCurrentLink] =  useState(1)
   left: 0;
   background-color: #212121;
   height: 100vh;
-  width: 22vw;
+  width: 14vw;
   display: flex;
   flex-direction: column;
   align-items: center;
