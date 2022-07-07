@@ -50,7 +50,7 @@ export default function Analytics() {
 
 const Section = styled.section`
 display: grid;
-grid-template-column: repeat(2, 1fr);
+grid-template-columns: repeat(2, 1fr);
 gap: 1rem;
 .analytic {
   ${cardStyle};
@@ -68,12 +68,17 @@ gap: 1rem;
     }
   }
   .logo {
-    background-color: black
-    border-readius: 3rem;
+    background-color: black;
+    border-radius: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 1.5rem;
+     
+    svg {
+      font-size: 1.5rem;
+    }
+
   }
   
 }
