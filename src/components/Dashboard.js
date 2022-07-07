@@ -27,7 +27,7 @@ export default function Dashboard() {
 }
 
 const Section = styled.section `
-margin-left: 22vw;
+margin-left: 14vw;
 padding: 2rem;
 height: 100%;
 .grid {
