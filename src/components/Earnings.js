@@ -133,7 +133,7 @@ padding: 2rem 0 0 0;
     }
     .growth {
       background-color: #d7e41e1d;
-      padding: 0ch.5rem;
+      padding: 0.5rem;
       border-radius: 1rem;
       transition: 0.3s ease-in-out;
       &:hover {
