@@ -58,7 +58,7 @@ gap: 1rem;
     }
   }
 }
-.title {
+.tittle {
   text-align: center;
   h2,h5 {
     color: #ffc107;

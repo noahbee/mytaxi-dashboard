@@ -9,19 +9,19 @@ const transactions = [
   {
     image: avatarImage,
     name: "from Ruphacode Noah",
-    time: "today 02:50",
+    time: "today, 02:50",
     amount: "+$100",
   },
   {
     image: avatarImage,
     name: "To Marieta Makonese",
-    time: "today 09:50",
+    time: "today, 09:50",
     amount: "-$30",
   },
   {
     image: avatarImage,
     name: "From Craig Chibage ",
-    time: "yesterday 08:70",
+    time: "yesterday, 08:70",
     amount: "+$250",
   },
 ];

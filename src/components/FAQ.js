@@ -24,7 +24,7 @@ export default function FAQ() {
   ];
   return (
    <Section>
-    <div className='title'>
+    <div className='tittle'>
       <h2>Infor for drivers</h2>
     </div>
     <div className='faqs'>
@@ -48,7 +48,7 @@ export default function FAQ() {
 
 const Section = styled.section`
 ${cardStyle}
-.title {
+.tittle {
   h2{
     color: #ffc107;
     font-family: 'Permanent Marker', cursive;
@@ -60,11 +60,13 @@ ${cardStyle}
   flex-direction: column;
   gap: 1rem;
   margin-top: 1rem;
+
   .faq {
     display: flex;
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+
     .info {
       display: flex;
       gap: 1rem;
